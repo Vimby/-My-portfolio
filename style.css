@@ -225,6 +225,7 @@ margin: 0 auto;
   .project-tile {
     background-color:#f8eb85;
     border: var(--my-border);
+    padding-bottom: 10px;
   }
 
   .project-tile {
@@ -232,7 +233,7 @@ margin: 0 auto;
   }
   
   .project-image {
-    max-width: 100%; 
+    width: 100%; 
    
   }
   
