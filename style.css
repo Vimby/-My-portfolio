@@ -227,7 +227,7 @@ margin: 0 auto;
     border: var(--my-border);
   }
 
-  .project-tile , .small-text{
+  .project-tile {
     padding-bottom: 10px;
   }
   
@@ -264,7 +264,7 @@ margin: 0 auto;
 }
 
 .testimony {
-  text-align: justify;
+  text-align: center;
 }
 
 /* Next & previous buttons */
