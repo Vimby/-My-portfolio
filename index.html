@@ -12,7 +12,9 @@
     <!--Font Awesome-->
   <script defer src="https://kit.fontawesome.com/0b91e8b090.js" crossorigin="anonymous"></script>
     <!--Google Fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" async rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Montserrat&display=swap" rel="stylesheet">
   </head>
   
   <body>
@@ -57,11 +59,11 @@
 <!-- Welcome-section -->
 <section id="welcome-section">
 
-  <h1>
-  <span> Hi, <br>Are you looking to build an online presence?<br>
+  <h1 class="big-title">
+   Hi, <br>Are you looking to build an online presence?<br>
     I can assist
-  </span>
     </h1>
+
 <!-- Services section -->
    <div class="services-section">
     <h2>What I can do</h2>
@@ -96,13 +98,19 @@
   <button class="btn">Contact Me</button>
   </a>
 </div>
-    <section>
-    </main>
+<div class="waves">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220"><path fill="#ea728c" fill-opacity="1" d="M0,224L34.3,218.7C68.6,213,137,203,206,192C274.3,181,343,171,411,176C480,181,549,203,617,192C685.7,181,754,139,823,112C891.4,85,960,75,1029,74.7C1097.1,75,1166,85,1234,117.3C1302.9,149,1371,203,1406,229.3L1440,256L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+</div>
 </section>
+
 <!-- About- section -->
 <section class="about-section" id="about">
-  <img class="mypicture profile-pic" src="images/large-pic.png" alt="profile-picture"  width="348" height="612">
-  <img class="small-pic" src="images/small-pic.png" alt="mobile-pic"  width="87" height="121"> 
+
+    
+ <img class="profile-pic" src="images/profile.png" alt="profile-picture">
+  <img class="small-pic" src="images/small-pic.png" alt="mobile-picture">  
+ 
+  
   <div class="text-side">
   <div class="introduction">
   <h2>About Me</h2>
@@ -112,13 +120,13 @@
     My journey with programming began when I was awarded a Google African certification scholarship in partnership
     with Andela and Pluralsight. I then enrolled for a complete web development bootcamp with Udemy and participated in the HNG6 internship.
   </p>
-  <p class="small-text">I am currently freelancing and available for full time/ remote  employment or  any project.</p>
+  <p class="small-text">I am currently freelancing and available for full time/ remote opportunities.</p>
 
 </div>
 
 <div class="contacts-btns">
 
-  <a href="mailto: vimbysbuzz@gmail.com?subject=CV request">
+  <a href="https://res.cloudinary.com/dvp2nvee/image/upload/v1635074128/Vimby_web_dev_jxn145.pdf">
   <button class="btn cv-btn">Request  Cv</button>
   </a>
 
@@ -152,55 +160,48 @@
   <div class="project-grid">
     <a 
     href="https://igreenpips.co.za " class="project-tile" target="_blank" rel="noreferrer">
-  <img src="images/igreenpips website.PNG" class="project-image" alt="Project-img" width="600" height="273">
+  <img src="images/igreenpips-website.png" class="project-image" alt="Project-img2">
+  <hr>
   <p class="project-name">iGreenpips website</p>
   <p class="small-text">Node-js ,Express & MongoDB project</p>
   </a>
 
   <a 
      href="https://toplinetech.co.za" class="project-tile" target="_blank" rel="noreferrer">
-      <img src="images/Topline tech.PNG" class="project-image" alt="Project-img" width="600" height="273">
+      <img src="images/toplinetech-website.png" class="project-image" alt="Project-img">
+      <hr>
       <p class="project-name">Topline Tech website</p>
       <p class="small-text">HTML, Bootstrap & PHP project</p>
   </a>
 
     <a 
        href="https://codepen.io/Mcyv/full/GRgMvGX" class="project-tile" target="_blank" rel="noreferrer" >
-      <img src="images/Cupcake home.png" class="project-image" alt="Project-img" width="600" height="265">
+      <img src="images/cupcake-home.png" class="project-image" alt="Project-img">
+      <hr>
       <p class="project-name">Landing Page</p>
       <p class="small-text">HTML & CSS project</p>
   </a>
     
         <a  
            href="https://vimby.github.io/tindog-website" class="project-tile" target="_blank" rel="noreferrer">
-      <img src="images/Tindog website.png" class="project-image"  alt="Project-img" width="600" height="257">
+      <img src="images/Tindog website.png" class="project-image"  alt="Project-img">
+      <hr>
       <p class="project-name">Tindog Website Clone</p>
       <p class="small-text">HTML & Bootstrap project</p>
   </a>   
     
  <a  
     href="https://vimby.github.io/Fylo-Landing-Page/" class="project-tile" target="_blank" rel="noreferrer">
-      <img src="images/Fylo landing page.png" class="project-image" alt="Project-img" width="600" height="280" >
+      <img src="images/Fylo landing page.png" class="project-image" alt="Project-img">
+      <hr>
       <p class="project-name">Fylo Landing Page Clone</p>
       <p class="small-text">HTML & CSS project</p>
   </a>  
 
-  <a   
-  href="https://vimby.github.io/-My-portfolio/" class="project-tile" target="_blank" rel="noreferrer">
-  <img src="images/Portfolio.png" class="project-image" alt="Project-img" width="600" height="279">
-  <p class="project-name">My portfolio website</p>
-  <p class="small-text">HTML, CSS & Javascript project</p>
-</a>  
-<a   
-href="https://codepen.io/Mcyv/full/LoNMJd" class="project-tile" target="_blank" rel="noreferrer">
-<img src="images/responsive-website.png" class="project-image" alt="Project-img" width="600" height="260" >
-<p class="project-name"> Responsive website </p>
-<p class="small-text">HTML, CSS & Javascript project</p>
-</a>  
-
 <a   
 href="https://codepen.io/Mcyv/full/eYmEEoW" class="project-tile" target="_blank" rel="noreferrer">
-<img src="images/survey form.png" class="project-image" alt="Project-img" width="600" height="275" >
+<img src="images/survey-form.png" class="project-image" alt="Project-img">
+<hr>
 <p class="project-name">Survey form</p>
 <p class="small-text">HTML, CSS & Javascript project</p>
 </a>  
@@ -268,7 +269,7 @@ href="https://codepen.io/Mcyv/full/eYmEEoW" class="project-tile" target="_blank"
   
   </footer>
 
-
+  <a class="footer-text" href='https://www.freepik.com/psd/technology'>Technology psd created by muhazdinata - www.freepik.com</a>
   <script src="index.js"></script>
 
   </body>
