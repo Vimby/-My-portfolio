@@ -133,29 +133,19 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 
 .about-section {
   background-color: var(--background-color);
-  display: grid;
-  grid-template-areas: "text picture";
-  grid-template-columns: 50% 50%;
-  padding: var(--spacing);
-}
-
-.profile-pic {
-  grid-area: picture;
-  height: auto;
-  max-width: 100%;
-}
-
-.small-pic {
-  display: none;
+ 
 }
 
 .text-side {
-  grid-area: text;
-  margin-top: var(--bottom-padding);
+  display: block;
+  margin: 0 auto;
+  padding: 0 10%;
+
 }
 
 .introduction  p, .skills li {
   text-align: justify;
+  line-height: 1.5;
 }
 
 .introduction h2 {
@@ -379,30 +369,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     grid-template-columns: repeat(3, 1fr);
   }
   }
-   /* ----Max width 800-----*/
-
-   @media(max-width: 800px) {
-     .about-section {
-      grid-template-columns: 100%;
-      grid-template-areas: 
-      "picture"
-     "text" 
-      ;
-     text-align: center;
-     }
-
-     .profile-pic {
-       display: none;
-     }
-
-    .small-pic {
-      display: grid;
-      grid-area: picture;
-      margin-left: 60%;
-      height: 130px;
-      width: 130px;
-      border-radius: 50%;
-    }
+     
 
   /* ----Maximum width 769-----*/
   @media(max-width: 768px){
@@ -471,5 +438,4 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   .text {
     line-height: 1;
   }
-   
 }
