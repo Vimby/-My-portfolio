@@ -162,39 +162,15 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .skills {
-  line-height: 2;
+  line-height: 1.5;
   padding-top: var(--top-padding);
-}
-
-.skills li {
- list-style-type: square;
-}
-
-.skills ul  {
-  display: grid;
-  grid-template-areas: "col1  col2  col3";
-  column-gap: 20px;
-  padding: var(--spacing);
-}
-
-.row1 {
-  grid-area: col1;
-}
-
-.row2  {
-  grid-area: col2;
-}
-
-.row3 {
-  grid-area: col3;
 }
 
 .waves {
   background-color: var(--background-color);
   
 }
-
-  
+ 
   /* ----Projects  Section-----*/
   #projects {
   min-height: 100%;
@@ -413,7 +389,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   
      /* ----Mobile-----*/
 
-  @media(max-width: 380px){
+  @media(max-width: 480px){
  
    .introduction, .skills {
     padding: 10px;
