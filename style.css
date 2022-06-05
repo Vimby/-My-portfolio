@@ -143,7 +143,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 
 }
 
-.introduction  p, .skills li {
+.introduction,  p {
   text-align: justify;
   line-height: 1.5;
 }
@@ -390,24 +390,16 @@ border: 1px solid rgba(255, 255, 255, 0.3);
      /* ----Mobile-----*/
 
   @media(max-width: 480px){
- 
-   .introduction, .skills {
-    padding: 10px;
-  }
 
   .github-btn, .codepen-btn {
     font-size: 10px;
     width: 50%;
   }
 
-  .col1, .col2, .col3, .project-name, .small-text {
-    font-size: 14px;
-  }
 
   .project-grid {
-    padding: 0;
-    justify-items: left;
-   margin: 0;
+   display: grid;
+   margin: 0 auto;
   }
 
 
