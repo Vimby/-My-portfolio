@@ -143,7 +143,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 
 }
 
-.introduction,  p {
+.introduction p {
   text-align: justify;
   line-height: 1.5;
 }
@@ -201,7 +201,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
    height: auto;
   }
   
-  .project-name {
+  .project-name, .small-text {
     padding: 2%;
     text-align: var(--text-align);
    
@@ -390,6 +390,13 @@ border: 1px solid rgba(255, 255, 255, 0.3);
      /* ----Mobile-----*/
 
   @media(max-width: 480px){
+    .introduction, .skills {
+      padding: 10px;
+    }
+
+    td p {
+      font-size: 12px;
+    }
 
   .github-btn, .codepen-btn {
     font-size: 10px;
@@ -406,4 +413,5 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   .text {
     line-height: 1;
   }
+
 }
